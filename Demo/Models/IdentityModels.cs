@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using System.Runtime.Hosting;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
@@ -34,4 +35,6 @@ namespace Vidly.Models
             return new ApplicationDbContext();
         }
     }
+    
 }
+
